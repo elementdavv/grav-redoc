@@ -1,0 +1,70 @@
+/* overwrite or extend styles */
+.container {
+    max-width: 120rem;
+}
+
+.page-content a {
+    text-decoration: none;
+}
+
+.page-content a:hover {
+    text-decoration: underline;
+}
+.logo-page {
+    display: flex;
+    justify-content: center;
+}
+.logo-page div {
+    width: 123px;
+    height: 128px;
+    background-image: url(../images/logo-black.png);
+    background-size: contain;
+}
+.blogimg {
+    text-align: center;
+}
+.blogimg div {
+    padding-top: 30px;
+}
+#navigation {
+    border-bottom-width: 0;
+}
+.btn-link:hover {
+    color: #555;
+}
+
+/* theme: white */
+.float-container {
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+    position: fixed;
+    font-size: 1.6em
+}
+.float-container a {
+    display: block;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    color: #000;
+    background-color: #e0e0e0;
+    font-size: 2rem;
+    border-radius: .5rem;
+    opacity: 50%;
+    transition: all .25s ease-in
+}
+.float-container a:hover,.float-container a:focus {
+    color: #1565c0;
+    opacity: 100%
+}
+@media only screen and (max-width: 768px) {
+    .float-container a:hover,.float-container a:focus {
+        color:#000;
+        opacity: 50%
+    }
+}
+@media only screen and (max-width: 768px) {
+    .float-container a {
+        padding-top: 4px;
+    }
+}

@@ -1,0 +1,52 @@
+navbar:
+        # title in navigation bar
+        title: Timelegend
+        # login link in navbar
+        # note: logout link appears automatically if enabled in following format,
+        # <full_name>, logout or <username>, logout (if full name isn't available)
+        auth_link:
+                enabled: false
+                login_slug: login
+                login_label: login
+
+# copyright text visible in footer and (start) year
+# if 'copyright_start_year' is not defind then it isn't shown
+footer:
+        copyright: Timelegend.net
+        copyright_start_year: 2019
+
+# social media icons, displayer in footer, above copyright text
+social:
+        github:
+                title: github
+                url: https://github.com/elementdavv
+                icon: fab fa-github
+        stackoverflow:
+                title: stackoverflow
+                url: https://stackoverflow.com/users/14863016
+                icon: fab fa-stack-overflow
+        email:
+                title: email
+                url: mailto:support@timelegend.net
+                icon: far fa-envelope
+
+# navigation links <prve/next) on post page (enabled by default)
+# taxonomy links on post page (enabled by default)
+post:
+        navigation: true
+        taxonomy: true
+
+# pagination - number of items to show per page
+pagination:
+        count: 10
+
+
+# inherite theme
+streams:
+ schemes:
+   theme:
+     type: ReadOnlyStream
+     prefixes:
+       '':
+         - user/themes/grav-redoc
+         - user/themes/grav-coder

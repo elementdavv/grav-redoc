@@ -1,0 +1,19 @@
+name: Grav Redoc
+slug: grav-redoc
+type: theme
+version: 0.1.0
+description: Custom Grav Coder theme, Grav Coder is a theme with minimal clutter and maximum content visibility inspired from hugo-coder theme.
+icon: rebel
+author:
+  name: elementdavv
+  email: vinctai@gmail.com
+  url: https://timelegend.net
+homepage: https://github.com/elementdavv/grav-redoc
+demo: https://timelegend.net
+keywords: grav, theme, redoc, minimum, clutter, content, visibility, cms, bootstrap
+bugs: https://github.com/elementdavv/grav-redoc/issues
+readme: https://github.com/elementdavv/grav-redoc/blog/master/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: ">=1.6.0" }
