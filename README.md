@@ -1,5 +1,5 @@
 # Grav Redoc
-Customization for Grav Coder theme.
+Dark mode of Grav Coder theme.
 
 # Grav Coder
 
